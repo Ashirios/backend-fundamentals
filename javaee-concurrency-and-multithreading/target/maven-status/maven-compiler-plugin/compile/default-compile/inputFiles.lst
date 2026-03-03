@@ -1,0 +1,11 @@
+/Users/alina/Desktop/PROJECTS/javaee-concurrency-and-multithreading/src/main/java/com/example/Main.java
+/Users/alina/Desktop/PROJECTS/javaee-concurrency-and-multithreading/src/main/java/com/example/ThreadResolverParameter.java
+/Users/alina/Desktop/PROJECTS/javaee-concurrency-and-multithreading/src/main/java/com/example/beans/User.java
+/Users/alina/Desktop/PROJECTS/javaee-concurrency-and-multithreading/src/main/java/com/example/custom/CustomThreadFactory.java
+/Users/alina/Desktop/PROJECTS/javaee-concurrency-and-multithreading/src/main/java/com/example/dao/DBConnection.java
+/Users/alina/Desktop/PROJECTS/javaee-concurrency-and-multithreading/src/main/java/com/example/dao/UserDao.java
+/Users/alina/Desktop/PROJECTS/javaee-concurrency-and-multithreading/src/main/java/com/example/runnanbles/AppRinnable.java
+/Users/alina/Desktop/PROJECTS/javaee-concurrency-and-multithreading/src/main/java/com/example/runnanbles/AppThread.java
+/Users/alina/Desktop/PROJECTS/javaee-concurrency-and-multithreading/src/main/java/com/example/runnanbles/CleaningScheduler.java
+/Users/alina/Desktop/PROJECTS/javaee-concurrency-and-multithreading/src/main/java/com/example/runnanbles/LoggingProcessor.java
+/Users/alina/Desktop/PROJECTS/javaee-concurrency-and-multithreading/src/main/java/com/example/runnanbles/UserProcessor.java

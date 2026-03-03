@@ -1,0 +1,17 @@
+2026-02-04 11:59:01 INFO  [main] Server started on port 8080
+2026-02-04 11:59:05 INFO  [http-nio-8080-exec-1] GET /api/health 200
+2026-02-04 12:00:10 INFO  [http-nio-8080-exec-2] POST /api/login user=stefan@sofia.bg
+2026-02-04 12:00:10 WARN  [http-nio-8080-exec-2] Login attempt failed for user stefan@sofia.bg
+2026-02-04 12:01:45 INFO  [http-nio-8080-exec-3] POST /api/login user=admin@local
+2026-02-04 12:01:46 INFO  [http-nio-8080-exec-3] User admin@local authenticated successfully
+2026-02-04 12:03:12 INFO  [scheduler-1] CleanupTask started
+2026-02-04 12:03:12 INFO  [scheduler-1] Deleted file temp_1707042001.log
+2026-02-04 12:03:12 INFO  [scheduler-1] Deleted file temp_1707042065.log
+2026-02-04 12:03:13 INFO  [scheduler-1] CleanupTask finished
+2026-02-04 12:05:00 INFO  [http-nio-8080-exec-4] GET /api/users 200
+2026-02-04 12:06:22 ERROR [http-nio-8080-exec-5] Database connection timeout
+2026-02-04 12:06:22 ERROR [http-nio-8080-exec-5] java.sql.SQLTimeoutException: Connection timed out
+2026-02-04 12:07:00 INFO  [scheduler-1] CleanupTask started
+2026-02-04 12:07:01 INFO  [scheduler-1] CleanupTask finished
+2026-02-04 12:10:00 INFO  [main] Shutdown signal received
+2026-02-04 12:10:02 INFO  [main] ExecutorService shutdown completed

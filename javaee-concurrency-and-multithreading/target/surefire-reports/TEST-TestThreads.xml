@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestThreads" time="0.016" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/alina/.m2/repository/org/apache/maven/surefire/surefire-booter/3.2.5/surefire-booter-3.2.5.jar:/Users/alina/.m2/repository/org/apache/maven/surefire/surefire-api/3.2.5/surefire-api-3.2.5.jar:/Users/alina/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.2.5/surefire-logger-api-3.2.5.jar:/Users/alina/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.2.5/surefire-shared-utils-3.2.5.jar:/Users/alina/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.2.5/surefire-extensions-spi-3.2.5.jar:/Users/alina/Desktop/PROJECTS/javaee-concurrency-and-multithreading/target/test-classes:/Users/alina/Desktop/PROJECTS/javaee-concurrency-and-multithreading/target/classes:/Users/alina/.m2/repository/com/mysql/mysql-connector-j/9.5.0/mysql-connector-j-9.5.0.jar:/Users/alina/.m2/repository/com/google/protobuf/protobuf-java/4.31.1/protobuf-java-4.31.1.jar:/Users/alina/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/Users/alina/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/alina/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/alina/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/alina/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/alina/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/alina/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/alina/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/alina/.m2/repository/org/apache/maven/surefire/surefire-junit-platform/3.2.5/surefire-junit-platform-3.2.5.jar:/Users/alina/.m2/repository/org/apache/maven/surefire/common-java5/3.2.5/common-java5-3.2.5.jar:/Users/alina/.m2/repository/org/junit/platform/junit-platform-launcher/1.10.2/junit-platform-launcher-1.10.2.jar"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk@21/21.0.6/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /Users/alina/Desktop/PROJECTS/javaee-concurrency-and-multithreading/target/surefire 2026-01-15T20-08-36_004-jvmRun1 surefire-20260115200836039_1tmp surefire_0-20260115200836039_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/alina/Desktop/PROJECTS/javaee-concurrency-and-multithreading/target/test-classes:/Users/alina/Desktop/PROJECTS/javaee-concurrency-and-multithreading/target/classes:/Users/alina/.m2/repository/com/mysql/mysql-connector-j/9.5.0/mysql-connector-j-9.5.0.jar:/Users/alina/.m2/repository/com/google/protobuf/protobuf-java/4.31.1/protobuf-java-4.31.1.jar:/Users/alina/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/Users/alina/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/alina/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/alina/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/alina/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/alina/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/alina/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/alina/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/alina"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk@21/21.0.6/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/alina/Desktop/PROJECTS/javaee-concurrency-and-multithreading"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.6"/>
+    <property name="user.name" value="alina"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.7.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="maven.ext.class.path" value="/Users/alina/.vscode/extensions/oracle.oracle-java-25.0.0/nbcode/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="localRepository" value="/Users/alina/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/hg/xk491y316gjgbh0416c_dst80000gn/T/"/>
+    <property name="java.version" value="21.0.6"/>
+    <property name="user.dir" value="/Users/alina/Desktop/PROJECTS/javaee-concurrency-and-multithreading"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/alina/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="21.0.6"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testAppThread(AppThread, AppThread, AppThread)" classname="TestThreads" time="0.008">
+    <system-out><![CDATA[PART I
+PART I
+PART I
+IT WAS A PLEASURE TO BURN
+IT WAS A PLEASURE TO BURN
+IT was a special pleasure to see things eaten, to see things blackened and changed. With the
+IT was a special pleasure to see things eaten, to see things blackened and changed. With the
+IT WAS A PLEASURE TO BURN
+brass nozzle in his fists, with this great python spitting its venomous kerosene upon the world,
+brass nozzle in his fists, with this great python spitting its venomous kerosene upon the world,
+the blood pounded in his head, and his hands were the hands of some amazing conductor playing
+the blood pounded in his head, and his hands were the hands of some amazing conductor playing
+IT was a special pleasure to see things eaten, to see things blackened and changed. With the
+all the symphonies of blazing and burning to bring down the tatters and charcoal ruins of history.
+all the symphonies of blazing and burning to bring down the tatters and charcoal ruins of history.
+With his symbolic helmet numbered 451 on his stolid head, and his eyes all orange flame with
+With his symbolic helmet numbered 451 on his stolid head, and his eyes all orange flame with
+brass nozzle in his fists, with this great python spitting its venomous kerosene upon the world,
+the thought of what came next, he flicked the igniter and the house jumped up in a gorging fire
+the thought of what came next, he flicked the igniter and the house jumped up in a gorging fire
+that burned the evening sky red and yellow and black. He strode in a swarm of fireflies. He
+that burned the evening sky red and yellow and black. He strode in a swarm of fireflies. He
+the blood pounded in his head, and his hands were the hands of some amazing conductor playing
+wanted above all, like the old joke, to shove a marshmallow on a stick in the furnace, while the
+wanted above all, like the old joke, to shove a marshmallow on a stick in the furnace, while the
+flapping pigeon-winged books died on the porch and lawn of the house. While the books went up
+flapping pigeon-winged books died on the porch and lawn of the house. While the books went up
+in sparkling whirls and blew away on a wind turned dark with burning.
+in sparkling whirls and blew away on a wind turned dark with burning.
+all the symphonies of blazing and burning to bring down the tatters and charcoal ruins of history.
+Montag grinned the fierce grin of all men singed and driven back by flame.
+Montag grinned the fierce grin of all men singed and driven back by flame.
+He knew that when he returned to the firehouse, he might wink at himself, a minstrel man, burnt-
+He knew that when he returned to the firehouse, he might wink at himself, a minstrel man, burnt-
+With his symbolic helmet numbered 451 on his stolid head, and his eyes all orange flame with
+corked, in the mirror. Later, going to sleep, he would feel the fiery smile still gripped by his face
+corked, in the mirror. Later, going to sleep, he would feel the fiery smile still gripped by his face
+muscles, in the dark. It never went away, that. smile, it never ever went away, as long as he
+muscles, in the dark. It never went away, that. smile, it never ever went away, as long as he
+remembered.
+remembered.
+the thought of what came next, he flicked the igniter and the house jumped up in a gorging fire
+He hung up his black-beetle-coloured helmet and shined it, he hung his flameproof jacket neatly;
+He hung up his black-beetle-coloured helmet and shined it, he hung his flameproof jacket neatly;
+he showered luxuriously, and then, whistling, hands in pockets, walked across the upper floor of
+he showered luxuriously, and then, whistling, hands in pockets, walked across the upper floor of
+the fire station and fell down the hole. At the last moment, when disaster seemed positive, he
+the fire station and fell down the hole. At the last moment, when disaster seemed positive, he
+that burned the evening sky red and yellow and black. He strode in a swarm of fireflies. He
+pulled his hands from his pockets and broke his fall by grasping the golden pole. He slid to a
+pulled his hands from his pockets and broke his fall by grasping the golden pole. He slid to a
+squeaking halt, the heels one inch from the concrete floor downstairs.
+squeaking halt, the heels one inch from the concrete floor downstairs.
+wanted above all, like the old joke, to shove a marshmallow on a stick in the furnace, while the
+He walked out of the fire station and along the midnight street toward the subway where the
+He walked out of the fire station and along the midnight street toward the subway where the
+silent, air-propelled train slid soundlessly down its lubricated flue in the earth and let him out
+silent, air-propelled train slid soundlessly down its lubricated flue in the earth and let him out
+flapping pigeon-winged books died on the porch and lawn of the house. While the books went up
+with a great puff of warm air an to the cream-tiled escalator rising to the suburb.
+with a great puff of warm air an to the cream-tiled escalator rising to the suburb.
+Whistling, he let the escalator waft him into the still night air. He walked toward the comer,
+Whistling, he let the escalator waft him into the still night air. He walked toward the comer,
+in sparkling whirls and blew away on a wind turned dark with burning.
+thinking little at all about nothing in particular. Before he reached the corner, however, he
+thinking little at all about nothing in particular. Before he reached the corner, however, he
+slowed as if a wind had sprung up from nowhere, as if someone had called his name.
+slowed as if a wind had sprung up from nowhere, as if someone had called his name.
+Montag grinned the fierce grin of all men singed and driven back by flame.
+The last few nights he had had the most uncertain feelings about the sidewalk just around the
+The last few nights he had had the most uncertain feelings about the sidewalk just around the
+He knew that when he returned to the firehouse, he might wink at himself, a minstrel man, burnt-
+corked, in the mirror. Later, going to sleep, he would feel the fiery smile still gripped by his face
+corner here, moving in the starlight toward his house. He had felt that a moment before his
+making the turn, someone had been there. The air seemed charged with a special calm as if
+muscles, in the dark. It never went away, that. smile, it never ever went away, as long as he
+corner here, moving in the starlight toward his house. He had felt that a moment before his
+remembered.
+someone had waited there, quietly, and only a moment before he came, simply turned to a
+He hung up his black-beetle-coloured helmet and shined it, he hung his flameproof jacket neatly;
+shadow and let him through. Perhaps his nose detected a faint perfume, perhaps the skin on the
+making the turn, someone had been there. The air seemed charged with a special calm as if
+he showered luxuriously, and then, whistling, hands in pockets, walked across the upper floor of
+backs of his hands, on his face, felt the temperature rise at this one spot where a person's
+the fire station and fell down the hole. At the last moment, when disaster seemed positive, he
+standing might raise the immediate atmosphere ten degrees for an instant
+someone had waited there, quietly, and only a moment before he came, simply turned to a
+pulled his hands from his pockets and broke his fall by grasping the golden pole. He slid to a
+squeaking halt, the heels one inch from the concrete floor downstairs.
+He walked out of the fire station and along the midnight street toward the subway where the
+shadow and let him through. Perhaps his nose detected a faint perfume, perhaps the skin on the
+silent, air-propelled train slid soundlessly down its lubricated flue in the earth and let him out
+with a great puff of warm air an to the cream-tiled escalator rising to the suburb.
+backs of his hands, on his face, felt the temperature rise at this one spot where a person's
+Whistling, he let the escalator waft him into the still night air. He walked toward the comer,
+standing might raise the immediate atmosphere ten degrees for an instant
+thinking little at all about nothing in particular. Before he reached the corner, however, he
+slowed as if a wind had sprung up from nowhere, as if someone had called his name.
+The last few nights he had had the most uncertain feelings about the sidewalk just around the
+corner here, moving in the starlight toward his house. He had felt that a moment before his
+making the turn, someone had been there. The air seemed charged with a special calm as if
+someone had waited there, quietly, and only a moment before he came, simply turned to a
+shadow and let him through. Perhaps his nose detected a faint perfume, perhaps the skin on the
+backs of his hands, on his face, felt the temperature rise at this one spot where a person's
+standing might raise the immediate atmosphere ten degrees for an instant
+]]></system-out>
+  </testcase>
+</testsuite>
