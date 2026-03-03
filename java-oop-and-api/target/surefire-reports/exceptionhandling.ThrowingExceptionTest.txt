@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: exceptionhandling.ThrowingExceptionTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.018 s <<< FAILURE! -- in exceptionhandling.ThrowingExceptionTest
+exceptionhandling.ThrowingExceptionTest.testThrowingExceptions -- Time elapsed: 0.009 s <<< ERROR!
+com.example.exceptionhandling.NegativeInputException: DOCTOR HOUUUUUSEEE
+	at com.example.exceptionhandling.ThrowingExceptions.calculatePay(ThrowingExceptions.java:10)
+	at exceptionhandling.ThrowingExceptionTest.testThrowingExceptions(ThrowingExceptionTest.java:18)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
